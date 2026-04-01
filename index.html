@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Mani<span>.</span></a>
+            <div class="mobile-menu-btn" id="mobile-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#softwares" class="nav-link">Softwares</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="btn-primary-outline" id="resumeBtn" data-src="./assets/resume.png">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-bg-lights">
+            <div class="light light-1"></div>
+            <div class="light light-2"></div>
+            <div class="particle p-1"></div>
+            <div class="particle p-2"></div>
+            <div class="particle p-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h3 class="hero-subtitle reveal">Hello, I'm Manikandan!</h3>
+                <h1 class="hero-title reveal delay-1">Video Editor & <br> <span class="gradient-text">2D Animator</span>
+                </h1>
+                <p class="hero-desc reveal delay-2">I bring ideas to life with smooth edits, vibrant animations, and
+                    clean
+                    motion graphics. Crafting engaging digital and visual experiences from scratch.</p>
+                <div class="hero-cta reveal delay-3">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image reveal delay-1">
+                <img src="./assets/motion_blast.svg" alt="Motion Blast" class="motion-blast">
+                <img src="./assets/animator_cartoon.svg" alt="Mani Cartoon" class="animator-character">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-img reveal">
+                    <!-- Catchy Animator Illustration -->
+                    <div class="about-visual-container">
+                        <img src="./assets/profile_pic.jpg" alt="Mani at Work" class="about-mani-img">
+                        <div class="about-glow"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal delay-1">
+                    <h3>Hi, I'm Mani!</h3>
+                    <p class="about-lead">I'm a video editor and 2D animation artist who loves creating clean, engaging
+                        motion graphics. I bring ideas to life with smooth edits, vibrant animations, and modern visual
+                        storytelling.</p>
+
+                    <div class="about-details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Experience</span>
+                            <span class="detail-value">3+ Years</span>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-label">Age</span>
+                            <span class="detail-value">25</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Coimbatore, TN, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Languages</span>
+                            <span class="detail-value">English, Tamil, Malayalam</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="timeline-item reveal delay-1">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2022 - Present</span>
+                                <h4>2D Animator</h4>
+                                <p>Vkan-V Solutions Pvt. Ltd.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item reveal delay-2">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">Graduated 2021</span>
+                                <h4> UG
+                                    B.sc Information Technology</h4>
+                                <p>CMS College of Science and Commerce, Coimbatore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Projects</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal" data-link="https://drive.google.com/file/d/1P6V7DjWnLssspH6erb7BYydWHT97TArS/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/animation_2d.png" alt="2D Animation">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">2D Animation</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal delay-1" data-link="https://drive.google.com/file/d/1TFYD-8NcBo8cAltpWFaKkFzLhhCb0wLS/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/video_editing.png" alt="Video Editing">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">Video Editing</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal" data-link="https://drive.google.com/file/d/10kwl1Hn8DPxIOv7fYKy9MS714GgNhu8N/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/motion_graphic.png" alt="Motion Graphic">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">Motion Graphics</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card reveal delay-1" data-link="https://drive.google.com/file/d/1Z20772JExVKN89Xufr_iJJdM0jgcM7qC/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/project_1.png" alt="UI Design">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">UI Design</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card reveal" data-link="https://drive.google.com/file/d/1B24WUAzgmnoEN7Sb9FB0-InUF2vq-NwT/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/project_2.png" alt="Color Grading">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">Color Grading</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card reveal delay-1" data-link="https://drive.google.com/file/d/1R8tbe2M_VZRrOR4PccfAJxTjHbokhxOH/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/ai_storytelling_new.jpg" alt="AI Story Telling">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">AI Storytelling Videos</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card reveal" data-link="https://drive.google.com/file/d/1WTo_CISQUdkHiVkmcsE7qEAooBlGMGYp/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/masking_new.jpg" alt="Masking">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">Masking</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card reveal delay-1" data-link="https://drive.google.com/file/d/1dF0JB3jhrYwhm5xW6ii6OgvOms9dY1pf/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/bg_logo_design.svg" alt="Logo Design and Animation">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">Logo Design & Animation</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card reveal" data-link="https://drive.google.com/file/d/1ShbwB8xOty_LzXtaIcFqrrzwYArWovKS/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/bg_motion_tracking.svg" alt="Motion Tracking">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">Motion Tracking</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="project-card reveal delay-1" data-link="https://drive.google.com/file/d/1MsMtfGzNMAQMEQsq8j5s54j6fTi2UXM0/view?usp=drive_link">
+                    <div class="project-img">
+                        <img src="./assets/bg_camera_tracking.svg" alt="Camera Tracking">
+                    </div>
+                    <div class="project-card-glow"></div>
+                    <div class="project-content centered-content">
+                        <h3 class="project-title">Camera Tracking</h3>
+                        <a href="#" class="project-link arrow-only">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Softwares Section -->
+    <section class="softwares section" id="softwares">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Softwares</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="marquee-container reveal delay-1">
+                <div class="marquee-content">
+                    <!-- Duplicate Sets for seamless infinite scroll on any screen size -->
+                    <!-- Set 1 -->
+                    <div class="software-item reveal"><img src="./assets/ae.svg" alt="After Effects"></div>
+                    <div class="software-item reveal delay-1"><img src="./assets/ai.svg" alt="Illustrator"></div>
+                    <div class="software-item reveal delay-2"><img src="./assets/ps.svg" alt="Photoshop"></div>
+                    <div class="software-item reveal delay-3"><img src="./assets/pr.svg" alt="Premiere Pro"></div>
+                    <div class="software-item reveal delay-4"><img src="https://cdn.simpleicons.org/figma" alt="Figma"></div>
+                    <div class="software-item reveal delay-5"><img src="./assets/capcut.png" alt="Capcut"></div>
+                    <!-- Set 2 -->
+                    <div class="software-item"><img src="./assets/ae.svg" alt="After Effects"></div>
+                    <div class="software-item"><img src="./assets/ai.svg" alt="Illustrator"></div>
+                    <div class="software-item"><img src="./assets/ps.svg" alt="Photoshop"></div>
+                    <div class="software-item"><img src="./assets/pr.svg" alt="Premiere Pro"></div>
+                    <div class="software-item"><img src="https://cdn.simpleicons.org/figma" alt="Figma"></div>
+                    <div class="software-item"><img src="./assets/capcut.png" alt="Capcut"></div>
+                    <!-- Set 3 -->
+                    <div class="software-item"><img src="./assets/ae.svg" alt="After Effects"></div>
+                    <div class="software-item"><img src="./assets/ai.svg" alt="Illustrator"></div>
+                    <div class="software-item"><img src="./assets/ps.svg" alt="Photoshop"></div>
+                    <div class="software-item"><img src="./assets/pr.svg" alt="Premiere Pro"></div>
+                    <div class="software-item"><img src="https://cdn.simpleicons.org/figma" alt="Figma"></div>
+                    <div class="software-item"><img src="./assets/capcut.png" alt="Capcut"></div>
+                    <!-- Set 4 -->
+                    <div class="software-item"><img src="./assets/ae.svg" alt="After Effects"></div>
+                    <div class="software-item"><img src="./assets/ai.svg" alt="Illustrator"></div>
+                    <div class="software-item"><img src="./assets/ps.svg" alt="Photoshop"></div>
+                    <div class="software-item"><img src="./assets/pr.svg" alt="Premiere Pro"></div>
+                    <div class="software-item"><img src="https://cdn.simpleicons.org/figma" alt="Figma"></div>
+                    <div class="software-item"><img src="./assets/capcut.png" alt="Capcut"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact-card reveal">
+                <h2>Let's build something beautiful together.</h2>
+                <p>I'm currently available for freelance projects and full-time opportunities.</p>
+                <div class="contact-details">
+                    <a href="mailto:manickfi188@gmail.com" class="contact-item">manickfi188@gmail.com</a>
+                    <span class="contact-divider">|</span>
+                    <a href="tel:7448978470" class="contact-item">+91 7448978470</a>
+                </div>
+                <a href="mailto:manickfi188@gmail.com" class="btn-primary btn-large">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Mani<span>.</span></div>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Manikandan. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#hero" class="back-to-top" id="backToTop">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </a>
+
+    <!-- Project Viewer Modal -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-container">
+            <button class="modal-close" id="closeModal" aria-label="Close Modal">&times;</button>
+            <div class="modal-content">
+                <h3 id="modalTitle">Project Title</h3>
+                <div class="modal-body" id="modalBody">
+                    <p id="modalDesc">Click the button below to view the full project on Google Drive.</p>
+                    <div id="modalImageContainer" class="modal-image-container" style="display: none;">
+                        <img id="modalImage" src="" alt="Resume Viewer">
+                    </div>
+                    <div class="modal-actions">
+                        <a href="#" id="modalButton" class="btn-primary" target="_blank">View Project</a>
+                        <a href="./assets/resume.png" id="modalDownload" class="btn-secondary" download style="display: none;">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
